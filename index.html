@@ -8,14 +8,14 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <title>Mavenrepository by Spice-King</title>
+    <title>Spice-King's Maven Repository</title>
   </head>
 
   <body>
 
     <header>
       <div class="container">
-        <h1>Mavenrepository</h1>
+        <h1>Spice-King's Maven repository</h1>
       </div>
     </header>
 
@@ -23,7 +23,17 @@
       <section id="main_content">
         <h3>Spice-King's Maven Repository</h3>
 
-<p>Please use <a href="http://spice-king.github.com/mavenrepository/releases/">my release maven repository</a> not <a href="http://spice-king.github.com/mavenrepository/snapshots/">my snapshot maven repository</a> unless you know what you are doing!</p>
+<p>Please use <a href="http://spice-king.github.com/mavenrepository/releases/">my release maven repository</a> not <a href="http://spice-king.github.com/mavenrepository/snapshots/">my snapshot maven repository</a> unless you know what you are doing!</p>Add this to your pom.xml file to use my repository:<pre>&lt; project&gt;
+    ...
+    &lt;repository&gt;
+        ...
+        &lt;repository&gt;
+            &lt;id&gt;spice-king-repo&lt;/id&gt;
+            &lt;url&gt;http://spice-king.github.com/mavenrepository/releases/&lt;/url&gt;
+        &lt;/repository&gt;
+    &lt;/repositories&gt;
+    ...
+&lt;/project&gt;</pre>
       </section>
     </div>
 
