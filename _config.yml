@@ -1,0 +1,5 @@
+permalink: none
+base_dir: /mavenrepository
+baseurl: /mavenrepository
+markdown: rdiscount
+pygments: true
