@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Releases
+    layout: default
+    title: Releases
 ---
 <pre>
 <a href="../">../</a>
