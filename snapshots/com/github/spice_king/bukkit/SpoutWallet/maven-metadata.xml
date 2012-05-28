@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.spice_king.bukkit</groupId>
+  <artifactId>SpoutWallet</artifactId>
+  <versioning>
+    <versions>
+      <version>1.4.4.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120528151832</lastUpdated>
+  </versioning>
+</metadata>
